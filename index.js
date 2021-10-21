@@ -7,6 +7,8 @@ fruits = [...fruits, 'Raspberry']
 
 console.log(fruits)
 
+fruits = ['Apple','Orange','Banana']
+
 fruits = [
     'Raspberry' ,
     ...fruits
@@ -48,4 +50,21 @@ console.log(bobby)
 
 // 05 - forEach
 
-    const numbers = [1, 2, 3, 4, 5, 6]
+    const numbers5 = [1, 2, 3, 4, 5, 6]
+
+    numbers5.forEach( numbers5 => {
+        console.log(numbers5)
+    })
+
+// 06 - filter 
+
+const numbers = [1, 2, 3, 4, 5, 6]
+var result = numbers.filter(number => number % 2 === 0);
+console.log(result);
+
+// 07 - Map 
+
+const numbers2 = [1, 2, 3, 4, 5, 6]
+
+const carre = numbers.map(numbers2 => numbers2 * numbers2); 
+console.log(carre)
